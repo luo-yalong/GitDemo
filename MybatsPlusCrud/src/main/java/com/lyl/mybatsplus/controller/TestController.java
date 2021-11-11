@@ -27,7 +27,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(){
-        String str = "hello,world------";
+        String str = "hello,world";
         System.out.println("str = " + str);
         return str;
     }
