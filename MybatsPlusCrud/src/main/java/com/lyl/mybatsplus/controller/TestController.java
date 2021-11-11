@@ -41,4 +41,9 @@ public class TestController {
     public Object queryUserById(int id){
         return map.getOrDefault(id,"");
     }
+
+    @GetMapping("/addUser")
+    public void addUser(int id,String name){
+        map.put(id,name);
+    }
 }
