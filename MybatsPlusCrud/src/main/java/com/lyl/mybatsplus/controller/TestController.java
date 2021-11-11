@@ -1,6 +1,7 @@
 package com.lyl.mybatsplus.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
@@ -42,7 +43,7 @@ public class TestController {
         return map.getOrDefault(id,"");
     }
 
-    @GetMapping("/addUser")
+    @PutMapping("/addUser")
     public void addUser(int id,String name){
         map.put(id,name);
     }
