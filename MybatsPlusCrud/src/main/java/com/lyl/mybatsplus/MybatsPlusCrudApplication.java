@@ -12,5 +12,4 @@ public class MybatsPlusCrudApplication {
     public static void main(String[] args) {
         SpringApplication.run(MybatsPlusCrudApplication.class, args);
     }
-
 }
