@@ -27,7 +27,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(){
-        String str = "hello,world----汉克僧--";
+        String str = "hello,world------";
         System.out.println("str = " + str);
         return str;
     }
@@ -37,16 +37,8 @@ public class TestController {
         return id ++;
     }
 
-    /**
-     * 通过用户id查询新消息
-     * @param id id
-     * @return 姓名
-     */
-    @GetMapping("/selectNameById")
-    public String selectNameById(int id){
-        return map.get(id);
+    @GetMapping("/queryUserById")
+    public Object queryUserById(int id){
+        return map.getOrDefault(id,"");
     }
-
-
-
 }
