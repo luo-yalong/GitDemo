@@ -26,7 +26,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello(){
-        String str = "hello,world---123---123123szdfasdf";
+        String str = "hello,world";
         System.out.println("str = " + str);
         return str;
     }
@@ -40,4 +40,5 @@ public class TestController {
     public Object queryUserById(int id){
         return userMap.getOrDefault(id,null);
     }
+
 }
