@@ -13,4 +13,6 @@ public class Product {
 
     private Double l4;
     private Double l5;
+    private String l6;
+    private String l7;
 }

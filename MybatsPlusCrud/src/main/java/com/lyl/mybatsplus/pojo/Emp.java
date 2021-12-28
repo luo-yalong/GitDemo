@@ -18,4 +18,6 @@ public class Emp {
         this.name = name;
         this.sex = sex;
     }
+
+    private Integer age;
 }
