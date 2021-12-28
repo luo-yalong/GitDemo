@@ -7,7 +7,7 @@ public class Product {
 
     private String Id;
     private String name;
-    private Integer l1;
-    private Integer l2;
-    private Integer l3;
+    private Double l1;
+    private Double l2;
+    private Double l3;
 }
