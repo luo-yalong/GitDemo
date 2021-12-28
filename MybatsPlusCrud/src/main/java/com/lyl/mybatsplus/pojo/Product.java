@@ -13,6 +13,4 @@ public class Product {
 
     private Double l4;
     private Double l5;
-
-
 }
