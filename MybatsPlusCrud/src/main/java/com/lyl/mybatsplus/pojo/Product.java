@@ -10,4 +10,8 @@ public class Product {
     private Double l1;
     private Double l2;
     private Double l3;
+
+    private String l4;
+    private String l5;
+
 }
