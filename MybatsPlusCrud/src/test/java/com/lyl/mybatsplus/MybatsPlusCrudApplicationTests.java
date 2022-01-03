@@ -12,4 +12,5 @@ class MybatsPlusCrudApplicationTests {
         System.out.println(a);
     }
 
+
 }
