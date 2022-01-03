@@ -8,6 +8,8 @@ class MybatsPlusCrudApplicationTests {
 
     @Test
     void contextLoads() {
+        int a =  1 / 0;
+        System.out.println(a);
     }
 
 }
